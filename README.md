@@ -19,8 +19,9 @@ Projeto e documentação da ferramenta de detecção de padrões de sociabilidad
 # Requisitos Não Funcionais
 - Interoperabilidade;
 - Disponibilidade;
-- Confiabilidade;
-- Consistência.
+- Escalabilidade;
+- Facilidade de uso (API de programação);
+- Segurança.
 
 # Componentes da Arquitetura
 ![Screenshot](Arquitetura.png)
