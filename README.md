@@ -10,17 +10,21 @@ Projeto e documentação da ferramenta de detecção de padrões de sociabilidad
 - (RF01) Reconhecer a variação no comportamento social devido a alterações no contexto (por exemplo, dias da semana, dias úteis, dias chuvosos); 
 - (RF02) Identificar os intervalos do dia que nos quais o indivíduo monitorado socializa habitualmente (padrões de sociabilidade);
 - (RF03) Notificar aplicações clientes sobre novos padrões de sociabilidade reconhecidos;
-- (RF04) Modelar o conhecimento especialista necessário para especificar o limiar de mudança de comportamento;
+- (RF04) Implementar o conhecimento especialista necessário para especificar o limiar de mudança de comportamento;
 - (RF05) Reconhecer comportamentos sociais anormais;
 - (RF06) Notificar aplicações clientes sobre comportamentos sociais anormais;
 - (RF07) Identificar mudanças de rotinas sociais; 
-- (RF08) Notificar aplicações clientes sobre mudanças de rotinas sociais.
+- (RF08) Notificar aplicações clientes sobre mudanças de rotinas sociais;
+- (RF09) Persistir os padrões de sociabilidade identificados e os eventos de mudanças de comportamentos sociais;
+- (RF10) Consultar os padrões de sociabilidade identificados e os eventos de mudanças de comportamentos sociais
 
 # Requisitos Não Funcionais
+- Modelar o conhecimento especialista;
 - Interoperabilidade;
 - Disponibilidade;
-- Confiabilidade;
-- Consistência.
+- Escalabilidade;
+- Facilidade de uso (API de programação);
+- Segurança.
 
 # Componentes da Arquitetura
 ![Screenshot](Arquitetura.png)
@@ -31,4 +35,3 @@ Projeto e documentação da ferramenta de detecção de padrões de sociabilidad
 
 # Mais
 ## [Repositório da Ferramenta](https://github.com/Ivan-Rodrigues/SocialMHealth)
-
