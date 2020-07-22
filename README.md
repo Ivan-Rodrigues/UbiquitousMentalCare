@@ -14,7 +14,9 @@ Projeto e documentação da ferramenta de detecção de padrões de sociabilidad
 - (RF05) Reconhecer comportamentos sociais anormais;
 - (RF06) Notificar aplicações clientes sobre comportamentos sociais anormais;
 - (RF07) Identificar mudanças de rotinas sociais; 
-- (RF08) Notificar aplicações clientes sobre mudanças de rotinas sociais.
+- (RF08) Notificar aplicações clientes sobre mudanças de rotinas sociais;
+- (RF09) Persistir os padrões de sociabilidade identificados e os eventos de mudanças de comportamentos sociais;
+- (RF10) Consultar os padrões de sociabilidade identificados e os eventos de mudanças de comportamentos sociais
 
 # Requisitos Não Funcionais
 - Modelar o conhecimento especialista;
