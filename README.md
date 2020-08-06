@@ -35,6 +35,8 @@ Projeto e documentação da ferramenta de detecção de padrões de sociabilidad
 - Detectar Padrões de Sociabilidade
 ![Screenshot](diagrama_sequencia_detc_padrao.png)
 
+# Diagrama de Componetes
+![Screenshot](diagramaComponente.png)
 
 # Mais
 ## [Repositório da Ferramenta](https://github.com/Ivan-Rodrigues/SocialMHealth)
