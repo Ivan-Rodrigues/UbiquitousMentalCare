@@ -8,29 +8,32 @@ Projeto e documentação da ferramenta de detecção de padrões de sociabilidad
 
 # Requisitos Funcionais
 - (RF01) Reconhecer a variação no comportamento social devido a alterações no contexto (por exemplo, dias da semana, dias úteis, dias chuvosos); 
-- (RF02) Identificar os intervalos do dia que nos quais o indivíduo monitorado socializa habitualmente (padrões de sociabilidade);
-- (RF03) Notificar aplicações clientes sobre novos padrões de sociabilidade reconhecidos;
-- (RF04) Implementar o conhecimento especialista necessário para especificar o limiar de mudança de comportamento;
-- (RF05) Reconhecer comportamentos sociais anormais;
-- (RF06) Notificar aplicações clientes sobre comportamentos sociais anormais;
-- (RF07) Identificar mudanças de rotinas sociais; 
-- (RF08) Notificar aplicações clientes sobre mudanças de rotinas sociais;
-- (RF09) Persistir os padrões de sociabilidade identificados e os eventos de mudanças de comportamentos sociais;
-- (RF10) Consultar os padrões de sociabilidade identificados e os eventos de mudanças de comportamentos sociais
+- (RF02) Identificar e notificar os intervalos do dia que nos quais o indivíduo monitorado socializa habitualmente (padrões de sociabilidade);
+- (RF03) Modelar o conhecimento especialista necessário para especificar o limiar de mudança de comportamento;
+- (RF04) Reconhecer e notificar comportamentos sociais anormais;
+- (RF05) Identificar e notificar mudanças de rotinas sociais; 
+- (RF06) Consultar os padrões de sociabilidade identificados e os eventos de mudanças de comportamentos sociais
 
 # Requisitos Não Funcionais
-- Modelar o conhecimento especialista;
-- Interoperabilidade;
-- Disponibilidade;
-- Escalabilidade;
-- Facilidade de uso (API de programação);
-- Segurança.
+- Modelar o conhecimento especialista: a ferramenta dever identificar mudanças de comportamentos sociais com graus de crença (conhecimento especialista), como mudanças leves, moderas e altas;
+- Interoperabilidade: a ferramenta deve se interoperar como fontes de eventos sociais e aplicações clientes interessadas nos padrões de sociabilidade identificados;
+- Disponibilidade: a ferramenta deve estar disponível continuamente, visto que as fontes de eventos sociais geram dados a qualquer momento;
+- Escalabilidade: a ferramenta deve se adaptar ao crescente fluxo de eventos, buscando escalar de maneira adequada as requisições de serviço;
+- Facilidade de uso (API de programação): a API disponibilizada deve fornecer interfaces que sejam de fácil uso, permitindo especificar estratégias de detecção de padrões sem dificuldades.;
+- Segurança: os dados trafegados devem ser criptografados e autenticados, devido a natureza pessoal contida nos eventos sociais gerados.
 
 # Componentes da Arquitetura
 ![Screenshot](Arquitetura.png)
 
 # Diagrama de Classes
 ![Screenshot](diagramaClasse.png)
+
+# Diagramas de Sequências
+- Implementar Regras Fuzzy
+![Screenshot](diagrama_sequencia_fuzzy.png)
+
+- Detectar Padrões de Sociabilidade
+![Screenshot](diagrama_sequencia_detc_padrao.png)
 
 
 # Mais
